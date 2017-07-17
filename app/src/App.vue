@@ -1,0 +1,20 @@
+<template>
+  <div id="app">
+    <div class="container">
+      <navbar></navbar>
+      <router-view></router-view>
+    </div>
+  </div>
+</template>
+
+<script>
+  import 'bulma'
+  import Navbar from '@/components/Navbar'
+
+  export default {
+    name: 'app',
+    components: {
+      Navbar
+    }
+  }
+</script>
